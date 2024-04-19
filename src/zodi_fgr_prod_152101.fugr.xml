@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>TEST</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZODI_FGR_PROD_152101TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZODI_FGR_PROD_152101</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZODI_152101_124101</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>ODI LKM Uploaded Program</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DELIMITER</PARAMETER>
+       <TYP>CHAR3</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FILENAME</PARAMETER>
+       <TYP>CHAR255</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_USER</PARAMETER>
+       <TYP>CHAR35</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PWD</PARAMETER>
+       <TYP>CHAR35</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_HOST</PARAMETER>
+       <TYP>CHAR35</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_HASHVALUE</PARAMETER>
+       <TYP>CHAR35</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PATH</PARAMETER>
+       <TYP>CHAR255</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_MAX_ROW_CNT</PARAMETER>
+       <TYP>SYTABIX</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_FETCH_BATCH_SIZE</PARAMETER>
+       <TYP>SYTABIX</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_TMP_DIR_PATH</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR255</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRETURN</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_FILE_RETURN</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DELIMITER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>3-Byte field</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FILENAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char255</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_USER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data Element Type CHAR Length 35</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PWD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data Element Type CHAR Length 35</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_HOST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data Element Type CHAR Length 35</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_HASHVALUE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Data Element Type CHAR Length 35</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PATH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char255</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_MAX_ROW_CNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Index of Internal Tables</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_FETCH_BATCH_SIZE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Index of Internal Tables</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_TMP_DIR_PATH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Char255</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_FILE_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
